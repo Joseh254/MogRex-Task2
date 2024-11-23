@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Services from './COMPONENTS/Services/Services'
+import Navbar from './COMPONENTS/Navbar/Navbar'
+import HeroSection from './COMPONENTS/HeroSection/HeroSection'
+import Testimonials from './COMPONENTS/Testimonials/Testimonials'
+import ContactForm from './COMPONENTS/Contact/ContactForm'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-<h1>task one</h1>
+<h1>task two</h1>
    
     </>
   )
