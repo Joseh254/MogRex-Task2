@@ -1,9 +1,31 @@
-import React from 'react'
+import React from "react";
+import './Navbar.css'
+import { useNavigate, Link} from 'react-router-dom'
+function Navbar (){
+  const navigate = useNavigate()
 
-function Navbar() {
-  return (
-    <div>Navbar</div>
-  )
-}
+  function handleNavigateHome(){
+navigate("/")
+  }
+  function handleNavigateServices(){
+navigate("/")
+  }
+  function handleNavigateContact(){
+navigate("/ContactForm")
+  }
+return(
+  <nav className="nav">
+    <div>
+    <p> Dev<span style={{color:"blue"}}>Soft</span></p>
+    </div>
+    <div>
+<button onClick={handleNavigateContact}>Home</button>
+{/* <button onClick={handleNavigateContact}>Services</button>
+<button onClick={handleNavigateContact}> Contact</button> */}
 
-export default Navbar
+    </div>
+  </nav>
+)
+};
+
+export default Navbar;
