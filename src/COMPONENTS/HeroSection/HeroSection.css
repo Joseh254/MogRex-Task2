@@ -24,5 +24,12 @@
 }
 .image img{
 width: 10rem;
-float: right;
+}
+.textCard{
+  max-width: 50%;
+  background-color: #96a6c0;
+  margin-top: 3rem;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 25px;
 }
