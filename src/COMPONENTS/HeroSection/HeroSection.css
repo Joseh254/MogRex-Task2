@@ -1,6 +1,6 @@
 .heroSection {
-  height: 50vh;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
+  height: 80vh;
+  background: linear-gradient(to right, #4facfe, #96a6c0);
   color: white;
   text-align: center;
   padding: 50px;
@@ -9,14 +9,20 @@
   font-size: 2rem;
 }
 .heroSection button {
-  padding: 10px 20px;
+  padding: 10px 20px; 
   background-color: #fff;
   color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-/* .heroSection button :hover{
-  background-color: black;
-  color: white;
-} */
+.hero-image-container{
+  display: none;
+  border: solid green;
+  min-width: 100%;
+  
+}
+.image img{
+width: 10rem;
+float: right;
+}

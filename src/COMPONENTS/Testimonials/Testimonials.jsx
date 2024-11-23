@@ -9,9 +9,9 @@ function Testimonials() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 3000,
   };
@@ -32,7 +32,7 @@ function Testimonials() {
   ];
 function slider(currentTestimony, i){
   return(
-    
+     
       <div key={i} className="testimonyWrapper">
         <div className="testimonyContainer">
           <img src={currentTestimony.svg} alt={`${currentTestimony.name}'s feedback`} />
