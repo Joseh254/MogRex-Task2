@@ -1,0 +1,39 @@
+.contactSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.MessageInputs{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    margin-bottom: 1rem;
+}
+.formAndMapContainer{
+    display: flex;
+    gap: 8%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.map{
+    width: 50%;
+    background-color: aqua;
+}
+form{
+    width: 50%;
+    /* background-color: antiquewhite; */
+    border: .1px solid grey;
+    padding: 1rem;
+    border-radius: 8px;
+}
+form textarea{
+    height: 30vh;
+}
+form input{
+    padding: 1rem;
+   
+}

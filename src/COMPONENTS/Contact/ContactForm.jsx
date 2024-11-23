@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useFormik } from "formik";
-
+import './ContactForm.css'
 import 'react-toastify/dist/ReactToastify.css';
 
 function ContactForm() {
@@ -44,8 +44,9 @@ function ContactForm() {
   });
 
   return (
-    <section style={{ padding: "50px 20px", textAlign: "center" }}>
-      <h2>Contact Us</h2>
+    <section className="contactSection">
+      <h2 style={{fontSize:"3rem"}}> Contact Us</h2>
+      <div className="formAndMapContainer">
       <form
         onSubmit={formik.handleSubmit}
         style={{ display: "inline-block", textAlign: "left" }}
@@ -62,7 +63,7 @@ function ContactForm() {
             required
           />
           {formik.touched.firstName && formik.errors.firstName && (
-            <p>{formik.errors.firstName}</p>
+            <p style={{color:"red"}}>{formik.errors.firstName}</p>
           )}
         </div>
 
@@ -78,7 +79,7 @@ function ContactForm() {
             required
           />
           {formik.touched.lastName && formik.errors.lastName && (
-            <p>{formik.errors.lastName}</p>
+            <p style={{color:"red"}}>{formik.errors.lastName}</p>
           )}
         </div>
 
@@ -94,7 +95,7 @@ function ContactForm() {
             required
           />
           {formik.touched.email && formik.errors.email && (
-            <p>{formik.errors.email}</p>
+            <p style={{color:"red"}}>{formik.errors.email}</p>
           )}
         </div>
 
@@ -102,14 +103,14 @@ function ContactForm() {
           <label>Message</label>
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder=" Write your message here"
             value={formik.values.message}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
             required
           />
           {formik.touched.message && formik.errors.message && (
-            <p>{formik.errors.message}</p>
+            <p style={{color:"red"}}>{formik.errors.message}</p>
           )}
         </div>
 
@@ -120,6 +121,8 @@ function ContactForm() {
           {loading ? "Submitting..." : "Submit"}
         </button>
       </form>
+        <div className="map">map</div>
+      </div>
     </section>
   );
 }
