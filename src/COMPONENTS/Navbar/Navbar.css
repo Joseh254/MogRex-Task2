@@ -1,1 +1,22 @@
-
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(216, 216, 216);
+    color: black;
+   flex-wrap: wrap;
+   font-size: 2.5rem;
+padding: 1rem 2rem;
+font-weight: 900;
+}
+.nav button{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    margin-left: 2rem;
+    padding: .5rem;
+    font-weight: 600;
+}
+nav button:hover{
+    background-color: azure;
+}

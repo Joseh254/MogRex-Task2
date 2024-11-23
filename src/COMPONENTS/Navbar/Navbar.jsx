@@ -8,20 +8,24 @@ function Navbar (){
 navigate("/")
   }
   function handleNavigateServices(){
-navigate("/")
+navigate("/Services")
   }
   function handleNavigateContact(){
 navigate("/ContactForm")
   }
+  function handleNavigateTestimonials(){
+    navigate("/Testimonials")
+  }
 return(
   <nav className="nav">
     <div>
-    <p> Dev<span style={{color:"blue"}}>Soft</span></p>
+    <p style={{float:"left"}}> Dev<span style={{color:"blue"}}>Soft</span></p>
     </div>
     <div>
-<button onClick={handleNavigateContact}>Home</button>
-{/* <button onClick={handleNavigateContact}>Services</button>
-<button onClick={handleNavigateContact}> Contact</button> */}
+<button onClick={handleNavigateHome}>Home</button>
+<button onClick={handleNavigateServices}>Services</button>
+<button onClick={handleNavigateContact}> Contact</button>
+<button onClick={handleNavigateTestimonials}> Testimonials</button>
 
     </div>
   </nav>
