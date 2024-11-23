@@ -28,7 +28,7 @@ const services = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi in et eius vero cumque nostrum aut perspiciatis porro error necessitatibus provident ad deserunt nobis nihil, aspernatur cupiditate odit quasi laudantium..",
   },
 ];
-
+ 
 function mapServices(Currentservice, i) {
   return (
     <div key={i} className="servicewrapper">
