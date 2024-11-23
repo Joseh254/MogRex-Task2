@@ -10,7 +10,11 @@ function App() {
 
   return (
     <>
-<h1>task two</h1>
+    <Navbar />
+    <HeroSection />
+    <Services />
+    <Testimonials />
+    <ContactForm />
    
     </>
   )
