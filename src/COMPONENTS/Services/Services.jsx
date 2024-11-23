@@ -35,7 +35,6 @@ function mapServices(Currentservice, i) {
       <div className="servicesContainer">{Currentservice.icon}</div>
       <h3>{Currentservice.title}</h3>
       <p>{Currentservice.description}</p>
-      {/* <p>{i=<FaTools />} </p> */}
     </div>
   );
 }

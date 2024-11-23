@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(216, 216, 216);
+  background-color: #798caa;
   color: black;
   flex-wrap: wrap;
   font-size: 2.5rem;
@@ -11,7 +11,7 @@
   width: 100%;
 }
 .nav button {
-  background-color: rgb(216, 216, 216);
+  background-color: #798caa;
   color: black;
   font-size: 1.5rem;
   border: none;

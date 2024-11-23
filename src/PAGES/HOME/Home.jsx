@@ -7,9 +7,11 @@ import Testimonials from "../../COMPONENTS/Testimonials/Testimonials";
 function Home() {
   return (
     <>
-      <Services />
+<div style={{margin:"1rem",backgroundColor:"#d6dbe4"}}>
+<Services />
       <ContactForm />
       <Testimonials />
+</div>
     </>
   );
 }

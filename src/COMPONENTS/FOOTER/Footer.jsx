@@ -17,9 +17,9 @@ function Footer(icon,text) {
 <div className="links">
     <h1>Links</h1>
 <Link to={"/"}>Home</Link>
-<Link to={"/"}>Services</Link>
-<Link to={"/"}>Contact Us</Link>
-<Link to={"/"}>Testimonies</Link>
+<Link to={"/Services"}>Services</Link>
+<Link to={"/ContactForm"}>Contact Us</Link>
+<Link to={"/Testimonials"}>Testimonies</Link>
 </div>
 
 
