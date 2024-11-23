@@ -121,9 +121,9 @@ function ContactForm() {
           {loading ? "Submitting..." : "Submit"}
         </button>
       </form>
-        <div className="map">
+        
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.3586907413!2d36.68257868686788!3d-1.3028602779443763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1732368347330!5m2!1sen!2ske" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        
       </div>
     </section>
   );

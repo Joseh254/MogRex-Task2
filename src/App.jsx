@@ -4,7 +4,7 @@ import HeroSection from "./COMPONENTS/HeroSection/HeroSection";
 import Testimonials from "./COMPONENTS/Testimonials/Testimonials";
 import ContactForm from "./COMPONENTS/Contact/ContactForm";
 import Home from "./PAGES/HOME/Home";
-import SimpleSlider from "./SimpleSlider";
+import Footer from "./COMPONENTS/FOOTER/Footer";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -19,8 +19,8 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/Testimonials" element={<Testimonials />} />
           <Route path="/ContactForm" element={<ContactForm />} />
-          <Route path="/SimpleSlider" element={<SimpleSlider/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

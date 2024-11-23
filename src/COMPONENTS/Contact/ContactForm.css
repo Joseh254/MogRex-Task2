@@ -18,9 +18,20 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    margin: 1rem;
+}
+@media screen and (max-width:604px){
+    .formAndMapContainer{
+        display: block;
+        margin: 1rem;
+    }
+    form{
+        width: 100%;
+    }
 }
 .map{
     width: 50%;
+    margin-left: 2rem;
 }
 form{
     width: 50%;
@@ -28,6 +39,12 @@ form{
     border: .1px solid grey;
     padding: 1rem;
     border-radius: 8px;
+}
+@media screen and (max-width:604px){
+   form{
+    width: 100%;
+    margin-bottom: 1rem;
+   } 
 }
 form textarea{
     height: 30vh;
