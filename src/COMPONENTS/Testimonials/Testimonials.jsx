@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Testimonials() {
-  return (
-    <div>Testimonials</div>
-  )
+  return <div>Testimonials</div>;
 }
 
-export default Testimonials
+export default Testimonials;

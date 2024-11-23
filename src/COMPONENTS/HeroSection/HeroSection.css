@@ -1,0 +1,22 @@
+.heroSection {
+  height: 50vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.heroSection button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* .heroSection button :hover{
+  background-color: black;
+  color: white;
+} */

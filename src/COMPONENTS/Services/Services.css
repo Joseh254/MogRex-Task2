@@ -1,0 +1,28 @@
+.serviceComponent {
+  padding: 50px 20px;
+}
+.servicewrapper {
+  flex: 1 1 calc(25% - 20px);
+  border: 1px solid #00f2fe;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: all ease-in-out 2s;
+}
+.servicesContainer {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+/* .services :hover{
+    scale: 1.1;
+    transition: inherit;
+} */
+.icon {
+  fill: #4facfe;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
